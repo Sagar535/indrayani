@@ -157,6 +157,13 @@
               <p class="description">Vehicle rent and driver available.</p>
             </div>
           </div>
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box" data-toggle="modal" data-target="#servicing-modal">
+              <div class="icon" style="background: #fff0da;"><i class="fa fa-car" style="color: #e98e06;"></i></div>
+              <h4 class="title"><a href="">Servicing</a></h4>
+              <p class="description"> Filters change, brake inspection ... </p>
+            </div>
+          </div>
 
         </div>
 
@@ -860,4 +867,37 @@
   <script src="js/main.js"></script>
 
 </body>
+
+
+<div class="modal" id="servicing-modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Servicing Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          <ul>
+            <li>Full car servicing details.</li>
+            <li>Air filter change.</li>
+            <li>Fuel filter (diesel) / Spark plugs change(petrol)</li>
+            <li>Extensive brake inspection.</li>
+            <li>Wheel bearings and shock absorbers inspection.</li>
+            <li>Electrical components (e.g. battery, alternator and starter motor) tested</li>
+            <li>Air conditioning system inspection.</li>
+            <li>Radiator and coolant hose checked.</li>
+          </ul>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 </html>
